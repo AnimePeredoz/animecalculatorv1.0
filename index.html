@@ -1,0 +1,83 @@
+<!-- @page "/calculator" -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>BlazorApp</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div align="center">
+        <h1 class="name">
+            <span>Anime</span>Calculator <span class="version">v1.0</span>
+        </h1>
+
+        <!-- <img class="gifka" src="boobs.gif" alt="boobs"> -->
+        <div class="corpus">
+            <img class="gifka" src="boobs.gif" alt="boobs">
+            <p><input id="enter" type="number" maxlength="11" step="0" @bind-value="data" />
+
+            </p>
+
+            <div class="calculator">
+                <button class="btn btndls" @onclick="ClickNumber">⌫</button>
+                <button class="btn btndls" @onclick="ClickNumber">AC</button>
+                <button class="btn btndls" @onclick="ClickNumber">%</button>
+                <button class="btn btndls" @onclick="ClickNumber">÷</button>
+
+                <button class="btn" @onclick="ClickNumber">7</button>
+                <button class="btn" @onclick="ClickNumber">8</button>
+                <button class="btn" @onclick="ClickNumber">9</button>
+                <button class="btn btndls" @onclick="ClickNumber">×</button>
+
+                <button class="btn" @onclick="ClickNumber">4</button>
+                <button class="btn" @onclick="ClickNumber">5</button>
+                <button class="btn" @onclick="ClickNumber">6</button>
+                <button class="btn btndls" @onclick="ClickNumber">−</button>
+
+                <button class="btn" @onclick="ClickNumber">1</button>
+                <button class="btn" @onclick="ClickNumber">2</button>
+                <button class="btn" @onclick="ClickNumber">3</button>
+                <button class="btn btndls" @onclick="ClickNumber">+</button>
+
+
+                <button class="btn btndls" @onclick="ClickNumber">.</button>
+                <button class="btn" @onclick="ClickNumber">0</button>
+
+                <button class="btn btnr btndls" @onclick="ClickNumber">=</button>
+
+            </div>
+        </div>
+    </div>
+    <br />
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+<!-- @code {
+private string data = "10505";
+
+private void ClickNumber(char arg)
+{
+data += arg;
+}
+
+private void ClickOperation()
+{
+}
+
+private void ClickResult()
+{
+}
+
+} -->
