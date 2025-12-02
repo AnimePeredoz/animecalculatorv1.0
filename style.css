@@ -13,17 +13,6 @@ p {
     margin: 5px;
 }
 
-.corpus {
-    width: 350px;
-
-
-    border: solid aqua 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-    padding-right: 0px;
-    padding-top: 3px;
-}
-
 div h1 span {
     color: #fbc2eb;
 
@@ -206,4 +195,5 @@ input:focus {
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
     -webkit-appearance: none;
+
 }
